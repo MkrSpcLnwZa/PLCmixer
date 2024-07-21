@@ -1,0 +1,31 @@
+Name:Beverages,,,,,,,,,,,,,,,,,,,,
+Description:Cool drinks!,,,,,,,,,,,,,,,,,,,,
+Recipe Length:8,,,,,,,,,,,,,,,,,,,,
+Number of Recipe:10,,,,,,,,,,,,,,,,,,,,
+Data Type:16-Bit Unsigned Int,The current recipe group editable in HMI:Yes,,,,,,,,,,,,,,,,,,,
+Write Recipe To PLC:Yes,,,,,,,,,,,,,,,,,,,,
+Write Address:D5,,,,,,,,,,,,,,,,,,,,
+Whether from PLC read address:No,,,,,,,,,,,,,,,,,,,,
+CAlibration,RECIPE1,RECIPE2,RECIPE3,RECIPE4,RECIPE5,RECIPE6,RECIPE7,RECIPE8,RECIPE9,,,,,,,,,,,
+50,1,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,2,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,3,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,4,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,5,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+50,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+Discrete recipe:V1,LS,Recipe 0,,,,,,,,,,,,,,,,,,
+Number of Recipe:,9,,,,,,,,,,,,,,,,,,,
+Language:,1,,,,,,,,,,,,,,,,,,,
+The current recipe group editable in HMI:, Yes,,,,,,,,,,,,,,,,,,,
+Element,Address,Data type(0~7),Display type(0~2),Total digits(1~10/64),Decimal digits(0~9),Scale(0~1),Gain,Offset,Red,Green,Honey,Red Soda,Green Soda,Honey  Soda,red 0.5,green 0.5,honey 0.5,water 0.5,lemon 0.5,Calibration
+Menuname,LW0,7,0,16,0,0,0,0,Red,Green,Honey,Red Soda,Green Soda,Honey Soda,red 0.5,green 0.5,honey 0.5,Water 0.5,Lemon 0.5,Calibration
+1RED,D10,0,0,4,1,0,0,0,10,0,0,10,0,0,5,0,0,0,0,1
+2GREEN,D11,0,0,4,1,0,0,0,0,10,0,0,10,0,0,5,0,0,0,1
+3HONEY,D12,0,0,4,1,0,0,0,0,0,10,0,0,10,0,0,5,0,0,1
+4LEMON,D13,0,0,4,1,0,0,0,5,5,5,5,5,5,0,0,0,0,5,1
+5WATER,D14,0,0,4,1,0,0,0,15,15,15,0,0,0,0,0,0,5,0,1
+6SODA,D15,0,0,4,1,0,0,0,0,0,0,20,20,20,0,0,0,0,0,1
+Dispenser7,D16,0,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Dispenser8,D17,0,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
